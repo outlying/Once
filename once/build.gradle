@@ -95,6 +95,7 @@ artifacts {
     archives sourcesJar
 }
 
+/* TODO some fix needed to make fork possible, this generates error when bintray.properties is missing
 bintray {
     Properties properties = new Properties()
     properties.load(project.rootProject.file('bintray.properties').newDataInputStream())
@@ -112,3 +113,4 @@ bintray {
         publish = true
     }
 }
+*/
